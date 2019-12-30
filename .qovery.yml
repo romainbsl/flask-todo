@@ -1,0 +1,16 @@
+qovery:
+  key: yi6uci2sbhuncptp/lpg6d20g1xw1pboa/p6xo6e73v6299arg
+application:
+  name: flask-todo
+  project: flask-todo-tutorial
+  publicly_accessible: true
+databases:
+- type: postgresql
+  version: "11.5"
+  name: my-postgresql-6132005
+routers:
+- name: main
+  routes:
+  - application_name: flask-todo
+    paths:
+    - /*
